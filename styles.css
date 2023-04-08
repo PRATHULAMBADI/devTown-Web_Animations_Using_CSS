@@ -1,0 +1,126 @@
+body{
+    margin:0px 0px;
+    height:100vh;
+    background-color: rgb(36, 58, 29);
+}
+/*****************HEADER*************/
+.headerContent{
+    height:100px;
+    text-align: center;
+}
+.mainHeading{
+    font-size:5em;
+    color:whitesmoke;
+    font-family: fantasy;
+}
+/*****************BODY*************/
+.bodyContent{
+    height:75%;
+    padding:10px;
+    color:whitesmoke;
+    font-family:verdana;
+    background-color:black;
+    display:flex;
+}
+/*****************FOOTBAL*************/
+.footballContainer{
+    padding:50px;
+    height:50px;
+    display: flex;
+}
+.footballText{
+    padding: 27px 0px;
+}
+.footballText:hover{
+    color: rgb(75, 73, 73);
+}
+.footballImage{
+    height: 50px;
+    position: relative;
+    animation:football 3s infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes football{
+    0%{top:0px;}
+    50%{top:-100px;}
+    100%{top:0px;}
+}
+/*****************TENNIS*************/
+.tennisContainer{
+    padding:50px;
+    height:50px;
+    display: flex;
+}
+.tennisText{
+    padding: 27px 0px;
+}
+.tennisText:hover{
+    color: rgb(75, 73, 73);
+}
+.tennisImage{
+    height: 25px;
+    position: relative;
+    animation:tennisball 5s infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes tennisball{
+    0%{top:25px;}
+    50%{top:-100px;}
+    100%{top:25px;}
+}
+/*****************BASKET*************/
+.basketContainer{
+    padding:50px;
+    height:50px;
+    display: flex;
+}
+.basketText{
+    padding: 27px 0px;
+}
+.basketText:hover{
+    color: rgb(75, 73, 73);
+}
+.basketImage{
+    height: 50px;
+    position: relative;
+    animation:basketball 4s infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes basketball{
+    0%{top:0px;}
+    50%{top:-100px;}
+    100%{top:0px;}
+}
+/*****************CRICKET*************/
+.cricketContainer{
+    padding:50px;
+    height:50px;
+    display: flex;
+}
+.cricketText{
+    padding: 27px 0px;
+}
+.cricketText:hover{
+    color: rgb(75, 73, 73);
+}
+.cricketImage{
+    height: 25px;
+    position: relative;
+    animation:cricketball 6s infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes cricketball{
+    0%{top:25px;}
+    50%{top:-100px;}
+    100%{top:25px;}
+}
+/*****************FOOTER*************/
+.footerContent{
+    height:80px;
+    padding: 5px 50px;
+    color:whitesmoke;
+    font-size:35px;
+    font-family:cursive;
+    text-align: right;
+    background-color:rgb(54, 88, 14);
+}
